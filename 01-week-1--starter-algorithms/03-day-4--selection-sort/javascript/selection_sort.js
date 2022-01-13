@@ -35,4 +35,12 @@ if (require.main === module) {
 module.exports = selectionSort;
 
 // Please add your pseudocode to this file
+// create a temprorary variable for the array length so we keep a scope a level deeper
+// for each element in the array
+// create a temporary variable to store the original value
+// for each subsequent element in the array
+// if the latter value is less than the former
+// set that latter value in the place of the former
+// if the new value at that index is different than the stored original value
+// swap them
 // And a written explanation of your solution

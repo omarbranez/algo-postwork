@@ -1,5 +1,6 @@
 def find_shortest_string(arr)
   # type your code in here
+  arr.sort{|a,b| a.length <=> b.length}[0]
 end
 
 if __FILE__ == $PROGRAM_NAME
@@ -22,4 +23,7 @@ if __FILE__ == $PROGRAM_NAME
 end
 
 # Please add your pseudocode to this file
+# run a sort function on the array
+# use a block that compares the length of two elements
+# return the first element of the sorted array
 # And a written explanation of your solution

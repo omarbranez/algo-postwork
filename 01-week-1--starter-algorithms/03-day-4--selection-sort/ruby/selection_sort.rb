@@ -35,6 +35,6 @@ end
 # check from the 0 index and work to the right
 # if the latter number is less than the former number
 # set that latter number as the current minimum between the two
-# store the value of whatever was determined to be the current minimum
-# 
+# store the value of the second element
+# replace it with the new smallest
 # And a written explanation of your solution
