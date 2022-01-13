@@ -1,5 +1,10 @@
 def fibonacci(n)
   # type your code in here
+  if n < 2
+    return n
+  else
+    return fibonacci(n-1) + fibonacci(n-2)
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME
@@ -21,3 +26,4 @@ end
 
 # Please add your pseudocode to this file
 # And a written explanation of your solution
+# same as javascript
