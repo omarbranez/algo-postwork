@@ -1,5 +1,23 @@
 function balancingParentheses(string) {
   // type your code here
+  let end = 0
+  let front = 0
+
+  for (let i = 0; i < string.length; ++i) {
+    if (string[i] === '(') {
+      ++openings
+      continue
+    }
+
+    if (front > 0) {
+      --front
+    } else {
+      ++end
+    }
+  }
+  return end + front
+}
+
 }
 
 if (require.main === module) {
